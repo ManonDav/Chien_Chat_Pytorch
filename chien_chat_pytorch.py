@@ -6,7 +6,7 @@ from torchvision.transforms import ToTensor
 
 """
     Mon programme construit un Convolutional Neural Network qui utilisent des filtres pour trouver des motifs ce qui permet au modèle d'identifier si la photo représente un chien ou un chat.
-    J'ai utilsé la base de données Cats and Dogs Classification Dataset disponible sur Kaggle : https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset
+    J'ai utilsé le dataset Cats and Dogs Classification Dataset disponible sur Kaggle : https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset
     Après avoir récupéré ce dataset, j'ai crée 2 dossiers Train et Test qui contiennent chacun deux dossiers cats et dogs.
 """
 
@@ -92,3 +92,4 @@ print("Accuracy finale : "+str((correct/size_data)*100) + "%")
 print("Avg Loss : ", test_loss/len(test_loader))
 
     
+
